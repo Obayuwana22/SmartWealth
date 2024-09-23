@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #dceeff;
+  }
+}
+
+@layer components {
+  .img {
+    @apply max-w-full;
+  }
+}
+
+@layer utilities {
+  .desktop-screen {
+    max-width: 1440px;
+  }
+
+  .border-radius {
+    border-radius: 50px;
+  }
+
+  .white-box {
+    max-height: 580px;
+    max-width: 580px;
+  }
+
+  .feature-card {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%; 
+    transform: translate(-50%, -50%);
+  }
+}
