@@ -1,3 +1,3 @@
 Live link
-https://smart-wealth.vercel.app/
+https://smartwealth-alpha.vercel.app/
 
