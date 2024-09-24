@@ -1,4 +1,5 @@
-import FeatureCard from "../components/FeatureCard"
+import FeatureCard from "../components/FeatureCard";
+import { featureCards } from "../data";
 
 const ServicesFeatures = () => {
   return (
@@ -16,9 +17,9 @@ const ServicesFeatures = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-10 md:gap-5 mt-20 mb-12">
-          <FeatureCard/>
-          <FeatureCard/>
-          <FeatureCard/>
+          {featureCards.map((item) => {
+            return <FeatureCard key={item.id} {...item} />;
+          })}
         </div>
       </div>
     </section>

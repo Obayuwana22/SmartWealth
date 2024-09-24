@@ -3,7 +3,7 @@ import heroAni from "../assets/Payment With Card 3.svg";
 const ServicesHero = () => {
   return (
     <section>
-      <div className=" flex flex-col my-10 md:flex-row-reverse md:items-center lg:justify-between lg:mx-10 lg:mb-10">
+      <div className=" flex flex-col my-10 mt-20 md:flex-row-reverse md:items-center lg:justify-between lg:mx-10 lg:mb-10 lg:mt-40">
         <div className="max-w-2xl">
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
             Award winning business management

@@ -40,6 +40,8 @@ export const solutions = [
   },
 ];
 
+// services
+
 import blogSectionImg1 from "./assets/finwise5 1.png";
 import blogSectionImg2 from "./assets/finwise5 1 (1).png";
 import blogSectionImg3 from "./assets/finwise5 1 (2).png";
@@ -67,6 +69,26 @@ export const blogSection = [
     bio: "BY ASHLEY VANCE",
   },
 ];
+
+export const featureCards = [
+  {
+    id: nanoid(),
+    title: "Financial Planning",
+    text: "Secure Your Financial Future with Expert Financial Planning. Start Today!",
+  },
+  {
+    id: nanoid(),
+    title: "Money Management",
+    text: "With experience in all market conditions, we recognize what processes and solutions.",
+  },
+  {
+    id: nanoid(),
+    title: "Strategic Partner",
+    text: "With experience in all market conditions, we recognize what processes and solutions.",
+  },
+];
+
+// footer
 
 export const footerCompany = [
   { id: nanoid(), title: "company" },
