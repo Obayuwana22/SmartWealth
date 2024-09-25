@@ -4,7 +4,7 @@ import FooterLinks from "./FooterLinks";
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-primaryClr rounded-t-3xl mt-32 px-10 pt-14 pb-8 text-white tracking-wider">
+      <div className="bg-primaryClr rounded-t-3xl px-10 pt-14 pb-8 text-white tracking-wider">
         <div className="lg:flex lg:items-start lg:justify-between">
           <img src={logo} alt="logo" className="mb-5" />
           <FooterLinks />

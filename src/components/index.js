@@ -1,4 +1,4 @@
-export { default as BasicCard } from "../components/BasicCard";
+export { default as ProCard } from "../components/ProCard";
 export { default as BlogCard } from "../components/BlogCard";
 export { default as CtaButton } from "../components/CtaButton";
 export { default as CardPlanAccordion } from "../components/CardPlanAccordion";
@@ -14,7 +14,10 @@ export { default as SectionInvesting } from "../components/SectionInvesting";
 export { default as SectionCTA } from "../components/SectionCTA";
 export { default as SectionBlog } from "../components/SectionBlog";
 export { default as ServicesHero } from "../components/ServicesHero";
-export { default as ServicesFeatures } from "../components/ServicesFeatures";
-export { default as PricingHero } from "../components/PricingHero";
 export { default as FinPlan } from "../components/FinPlan";
 export { default as ServicesBlog } from "../components/ServicesBlog";
+export { default as StarterCard } from "../components/StarterCard";
+export { default as AboutHero } from "../components/AboutHero";
+export { default as AboutHistory } from "../components/AboutHistory";
+export { default as AboutAchievement } from "../components/AboutAchievement";
+export { default as AboutManagement } from "../components/AboutManagement";

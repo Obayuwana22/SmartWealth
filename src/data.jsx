@@ -153,3 +153,78 @@ export const servicesBlog = [
     text: "Use positioning to fix top-bars, sidebars, and backgrounds.",
   },
 ];
+
+import img from "./assets/add.svg";
+
+
+export const pricingAccordion = [
+  {
+    id: nanoid(),
+    img: img,
+    question:
+      "How do you ensure the security of my personal and financial information?",
+    answer:
+      "We prioritize the security of your personal and financial information by using advanced encryption technologies, secure server infrastructures, and regular security audits. We also comply with financial industry regulations and standards, such as GDPR and PCI DSS, to ensure your data is always protected.",
+  },
+  {
+    id: nanoid(),
+    img: img,
+    question: "How do you help with finance management?",
+    answer:
+      "We offer personalized financial management tools that allow you to track spending, create budgets, and set financial goals. Our platform provides real-time insights, alerts for unusual transactions, and tips on how to improve your financial health.",
+  },
+  {
+    id: nanoid(),
+    img: img,
+    question: "How can I apply for a loan with your company?",
+    answer:
+      "Applying for a loan is simple. Just fill out our online application form, provide the required financial documents, and we'll review your application. Once approved, you'll receive the funds directly into your account. Our team is available to assist you throughout the process.",
+  },
+  {
+    id: nanoid(),
+    img: img,
+    question: "What services does your company offer?",
+    answer:
+      "We offer a wide range of financial services, including personal finance management, savings accounts, investment opportunities, loan applications, and financial planning. Our platform is designed to cater to individuals looking to take control of their finances with ease.",
+  },
+  {
+    id: nanoid(),
+    img: img,
+    question: "How do I contact customer support?",
+    answer:
+      "You can contact our customer support team through multiple channels: by phone, email, or live chat on our website. We're available 24/7 to assist you with any inquiries or issues you may have.",
+  },
+];
+
+import trendImg from "./assets/trending.svg";
+
+export const aboutHistory = [
+  {
+    id: nanoid(),
+    img: trendImg,
+    year: 2005,
+    text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit",
+    date: "07 June 2012",
+  },
+  {
+    id: nanoid(),
+    img: trendImg,
+    year: 2010,
+    text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit",
+    date: "07 June 2012",
+  },
+  {
+    id: nanoid(),
+    img: trendImg,
+    year: 2013,
+    text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit",
+    date: "07 June 2012",
+  },
+  {
+    id: nanoid(),
+    img: trendImg,
+    year: ` ${2020} - Now `,
+    text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit",
+    date: "07 June 2012",
+  },
+];

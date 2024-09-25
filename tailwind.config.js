@@ -9,6 +9,7 @@ export default {
         gryClr: "#E7E7E7",
         grayText: "#7F7F7F",
         background: "#dceeff",
+        grayBg: "#E7E7E7"
       },
     },
   },

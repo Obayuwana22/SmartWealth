@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`flex flex-col justify-between inset-y-0 z-10 absolute top-16 left-5 bg-primaryClr rounded-lg py-5 md:w-60 lg:hidden ${
+        className={`flex flex-col justify-between inset-y-0 z-10 fixed top-16 left-0 bg-primaryClr rounded-lg py-5 md:w-60 lg:hidden ${
           menuOpen ? "block" : "hidden lg:flex"
         }`}
       >
