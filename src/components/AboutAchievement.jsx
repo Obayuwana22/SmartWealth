@@ -1,4 +1,4 @@
-import img from "../assets/about 1.png";
+import img from "../assets/achievementclap.png";
 
 const AboutAchievement = () => {
   return (
@@ -9,7 +9,9 @@ const AboutAchievement = () => {
         </div>
 
         <div className="bg-primaryClr rounded-2xl text-white px-5 py-7 md:px-[50px] md:py-12 ">
-          <h2 className="mb-5 text-2xl lg:text-5xl xl:text-6xl">Our achievements</h2>
+          <h2 className="mb-5 text-2xl lg:text-5xl xl:text-6xl">
+            Our achievements
+          </h2>
           <p className="text-background">
             We're committed to achieving excellence in everything we do. Over
             the years, we've worked hard to build a reputation for providing
@@ -20,13 +22,17 @@ const AboutAchievement = () => {
           <div className="flex flex-col mt-10 md:flex-row md:justify-between md:max-w-[413px]">
             <div>
               <div>
-                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">15+</h3>
+                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">
+                  15+
+                </h3>
                 <div className="text-secondaryClr font-bold text-xs mb-8">
                   YEARS EXPERIENCES
                 </div>
               </div>
               <div>
-                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">3450</h3>
+                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">
+                  3450
+                </h3>
                 <div className="text-secondaryClr font-bold text-xs mb-8">
                   LOANS APPROVED
                 </div>
@@ -34,13 +40,17 @@ const AboutAchievement = () => {
             </div>
             <div>
               <div>
-                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">52</h3>
+                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">
+                  52
+                </h3>
                 <div className="text-secondaryClr font-bold text-xs mb-8">
                   BUSINESS PARTNERS
                 </div>
               </div>
               <div>
-                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">21,000+</h3>
+                <h3 className="mb-2 lg:mb-5 text-xl lg:text-4xl xl:text-5xl">
+                  21,000+
+                </h3>
                 <div className="text-secondaryClr font-bold text-xs mb-8">
                   HAPPY CUSTOMERS
                 </div>
