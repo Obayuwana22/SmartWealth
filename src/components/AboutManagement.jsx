@@ -7,7 +7,6 @@ const AboutManagement = () => {
         <h2 className="mb-10 text-2xl lg:text-5xl xl:text-6xl">
           Our Management
         </h2>
-
         <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 xl:gap-x-[30px]  ">
           {aboutManagement.map((item) => {
             const { id, img, name, position, text, X, linkedin } = item;
@@ -25,7 +24,7 @@ const AboutManagement = () => {
                     {position}
                   </div>
                   <p className="text-grayText">{text}</p>
-                  <div className="flex">
+                  <div className="flex"> 
                     <div className="max-w-1 ">
                       <img src={X} alt="x-twitter" />
                     </div>

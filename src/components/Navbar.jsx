@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="bg-primaryClr px-5 py-3 rounded-lg flex items-center justify-between lg:px-10 lg:py-5 fixed top-0 left-0 w-full z-10 mt-2 lg:mt-7">
-        <img src={logo} alt="logo" className="img w-32" />
+        <img src={logo} alt="logo" className="img w-32 " />
 
         <div onClick={handleMenu} className="md:hidden">
           <img src={menu} alt="menu icon" />

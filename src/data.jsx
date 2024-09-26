@@ -229,8 +229,8 @@ export const aboutHistory = [
 ];
 
 import managementImg from "./assets/Image.png";
-import x from "./assets/x-solid.svg" 
-import linkedin from "./assets/linkedin-solid.svg"
+import x from "./assets/x-solid.svg";
+import linkedin from "./assets/linkedin-solid.svg";
 
 export const aboutManagement = [
   {
@@ -268,5 +268,58 @@ export const aboutManagement = [
     text: "Amet minim mollit non deserunt ullamco est sit etsi aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
     X: x,
     linkedin: linkedin,
+  },
+];
+
+import blogImg1 from "./assets/blogpost1.png";
+import blogImg2 from "./assets/blogpost2.png";
+import blogImg3 from "./assets/blogpost3.png";
+
+import blogImg4 from "./assets/blogpost4.png";
+import blogImg5 from "./assets/blogpost5.png";
+import blogImg6 from "./assets/blogpost6.png";
+
+export const blogPosts = [
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg1,
+    title: "Finance and economics",
+    text: "Big tech’s dominance is straining the logic of passive investing",
+  },
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg2,
+    title: "FIN-TECH",
+    text: "The story of how Dave took the long road to become a neo-bank",
+  },
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg3,
+    title: "FIN-TECH",
+    text: "The story of how Dave took the long road to become a neo-bank",
+  },
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg4,
+    title: "FIN-TECH",
+    text: "The story of how Dave took the long road to become a neo-bank",
+  },
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg5,
+    title: "Finance and economics",
+    text: "The story of how Dave took the long road to become a neo-bank",
+  },
+  {
+    id: nanoid(),
+    href:"#",
+    img: blogImg6,
+    title: "ADVERTISING",
+    text: "The story of how Dave took the long road to become a neo-bank",
   },
 ];
