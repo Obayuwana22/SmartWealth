@@ -3,7 +3,7 @@ import img from "../assets/about 1.png";
 const AboutHero = () => {
   return (
     <section>
-      <div className=" mt-20 lg:mt-40 grid grid-col-1 gap-y-10 lg:grid lg:grid-cols-2 lg:mx-10 lg:gap-x-16 ">
+      <div className=" mt-20 lg:mt-40 grid grid-col-1 gap-y-10 md:grid-cols-2 md:gap-x-16 lg:mx-10  ">
         <div className="md:min-w-96 md:mx-auto">
           <img src={img} alt="people planning" />
         </div>

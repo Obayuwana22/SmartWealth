@@ -3,7 +3,7 @@ import img from "../assets/achievementclap.png";
 const AboutAchievement = () => {
   return (
     <section>
-      <div className="mt-20 grid grid-col-1 gap-y-10 lg:mt-40 lg:grid lg:grid-cols-2 lg:mx-10 lg:gap-x-7 ">
+      <div className="mt-20 grid grid-col-1 gap-y-10 lg:mt-40 md:grid-cols-2 lg:mx-10 md:gap-x-16 ">
         <div className="mx-0 md:min-w-96 md:mx-auto">
           <img src={img} alt="people planning" />
         </div>
