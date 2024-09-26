@@ -2,8 +2,8 @@ import { finPlan } from "../data";
 
 const FinPlan = ({ imgOne, imgTwo }) => {
   return (
-    <section className="flex flex-col gap-10 my-5 px-5 py-7 md:py-12 lg:gap-40  ">
-      <div className="grid grid-col-1 gap-y-10 lg:grid lg:grid-cols-2 lg:mx-10 lg:gap-x-16 ">
+    <section className="flex flex-col gap-10 my-5 py-7 md:py-12 lg:gap-40  ">
+      <div className="grid grid-col-1 gap-y-10 md:grid-cols-2 md:gap-x-10 lg:mx-10 lg:gap-x-16 ">
         <div className="flex flex-col gap-2 lg:gap-5">
           <h3 className="text-2xl lg:text-5xl">Financial Planning</h3>
           <p className="text-grayText">
@@ -21,13 +21,13 @@ const FinPlan = ({ imgOne, imgTwo }) => {
             );
           })}
         </div>
-        <div className="md:min-w-96 md:mx-auto">
+        <div className="md:mx-auto">
           <img src={imgOne} alt="people planning" />
         </div>
       </div>
 
-      <div className="grid grid-col-1 gap-y-10 lg:grid lg:grid-cols-2 lg:mx-10 lg:gap-x-16 ">
-        <div className="hidden lg:block md:min-w-96 md:mx-auto">
+      <div className="grid grid-col-1 gap-y-10 md:grid-cols-2 md:gap-x-10 lg:mx-10 lg:gap-x-16 ">
+        <div className="hidden md:block  md:mx-auto">
           <img src={imgTwo} alt="people planning" />
         </div>
         <div className="flex flex-col gap-2 lg:gap-5">
@@ -47,7 +47,7 @@ const FinPlan = ({ imgOne, imgTwo }) => {
             );
           })}
         </div>
-        <div className="lg:hidden md:min-w-96 md:mx-auto">
+        <div className="md:hidden  md:mx-auto">
           <img src={imgTwo} alt="people planning" />
         </div>
       </div>
