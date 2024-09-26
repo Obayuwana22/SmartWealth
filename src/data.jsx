@@ -156,7 +156,6 @@ export const servicesBlog = [
 
 import img from "./assets/add.svg";
 
-
 export const pricingAccordion = [
   {
     id: nanoid(),
@@ -226,5 +225,48 @@ export const aboutHistory = [
     year: ` ${2020} - Now `,
     text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit",
     date: "07 June 2012",
+  },
+];
+
+import managementImg from "./assets/Image.png";
+import x from "./assets/x-solid.svg" 
+import linkedin from "./assets/linkedin-solid.svg"
+
+export const aboutManagement = [
+  {
+    id: nanoid(),
+    img: managementImg,
+    name: "Michael Steuber",
+    position: "EXECUTIVE CHAIRMAN",
+    text: "Amet minim mollit non deserunt ullamco est sit etsi aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+    X: x,
+    linkedin: linkedin,
+  },
+  {
+    id: nanoid(),
+    img: managementImg,
+    name: "Hannah Hansen",
+    position: "EXECUTIVE CHAIRMAN",
+    text: "Amet minim mollit non deserunt ullamco est sit etsi aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+    X: x,
+    linkedin: linkedin,
+  },
+  {
+    id: nanoid(),
+    img: managementImg,
+    name: "Jasmine McClure",
+    position: "EXECUTIVE CHAIRMAN",
+    text: "Amet minim mollit non deserunt ullamco est sit etsi aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+    X: x,
+    linkedin: linkedin,
+  },
+  {
+    id: nanoid(),
+    img: managementImg,
+    name: "Clarence Veum V",
+    position: "EXECUTIVE CHAIRMAN",
+    text: "Amet minim mollit non deserunt ullamco est sit etsi aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+    X: x,
+    linkedin: linkedin,
   },
 ];

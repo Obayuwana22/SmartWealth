@@ -16,8 +16,8 @@ const About = () => {
       <AboutHero />
       <AboutHistory />
       <AboutAchievement />
-      {/* <AboutManagement /> */}
-      <div className="flex flex-col justify-between gap-5 w-1/2 mx-auto my-10 md:flex-row md:w-auto md:my-40 lg:mx-10 2xl:mx-16">
+      <AboutManagement />
+      <div className="flex flex-col justify-between gap-5 w-1/2 mx-auto my-10 md:flex-row md:w-auto md:my-20 lg:mx-10 2xl:mx-16">
         <div>
           <img src={partner1} alt="google " />
         </div>
