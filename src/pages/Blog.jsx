@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
     <section>
-      <div className="mt-20 md:mt-[150px]">
+      <div className="mt-20 lg:mt-40 ">
         <div className="md:mb-20 flex flex-col items-center gap-5">
           <h2 className="mb-5 text-2xl lg:text-5xl ">Blog</h2>
           <div className="flex gap-[21px] capitalize ">
