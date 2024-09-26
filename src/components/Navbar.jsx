@@ -29,10 +29,10 @@ const Navbar = () => {
       <div className="bg-primaryClr px-5 py-3 rounded-lg flex items-center justify-between lg:px-10 lg:py-5 fixed top-0 left-0 w-full z-10 mt-2 lg:mt-7">
         <img src={logo} alt="logo" className="img w-32" />
 
-        <div onClick={handleMenu} className="lg:hidden">
+        <div onClick={handleMenu} className="md:hidden">
           <img src={menu} alt="menu icon" />
         </div>
-        <ul className="lg:flex lg:gap-x-5 capitalize text-white hidden">
+        <ul className="md:flex md:gap-x-5 capitalize text-white hidden">
           {navLinks.map((navLink) => {
             const { id, href, text } = navLink;
             return (
@@ -42,14 +42,14 @@ const Navbar = () => {
             );
           })}
         </ul>
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <ContactBtn />
         </div>
       </div>
 
       <div
-        className={`flex flex-col justify-between inset-y-0 z-10 fixed top-16 left-0 bg-primaryClr rounded-lg py-5 md:w-60 lg:hidden ${
-          menuOpen ? "block" : "hidden lg:flex"
+        className={`flex flex-col justify-between inset-y-0 z-10 fixed top-16 left-0 bg-primaryClr rounded-lg py-5 md:w-60 md:hidden ${
+          menuOpen ? "block" : "hidden md:flex"
         }`}
       >
         <ul className="flex flex-col capitalize text-white pr-20 pl-6  ">
